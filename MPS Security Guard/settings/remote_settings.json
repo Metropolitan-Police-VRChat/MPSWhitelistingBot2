@@ -1,0 +1,82 @@
+{
+    "Server_ID": 0,
+    "bot_prefix": "$",
+    "name_separator": ";",
+    "admin_bot_channel": 0,
+    "bot_debug_channel": 0,
+    "general_bot_channel": 0,
+    "MPS_role": 982348999849824316,
+    "role_ladder": [
+        {
+            "name": "Cadet",
+            "name_id": "cadet",
+            "id": 982348740151107614
+        },
+        {
+            "name": "Recruit",
+            "name_id": "recruit",
+            "id": 982348050737553418,
+            "is_officer": true
+        },
+        {
+            "name": "PCSO [Public Community Support Officer]",
+            "name_id": "pcso",
+            "id": 1097979613898084443,
+            "is_officer": true
+        },
+		{
+            "name": "Constable",
+            "name_id": "constable",
+            "id": 982347795056963634,
+            "is_officer": true
+        },
+		{
+            "name": "Special Constable",
+            "name_id": "special constable",
+            "id": 982348139346407484,
+            "is_officer": true
+        },
+        {
+            "name": "Sergeant",
+            "name_id": "sergeant",
+            "id": 982347455389659198,
+            "is_officer": true
+        },
+		{
+            "name": "Snr Sergeant",
+            "name_id": "snr sergeant",
+            "id": 1191859455239925900,
+            "is_officer": true
+        },
+		{
+            "name": "Superintendant",
+            "name_id": "superintendant",
+            "id": 1191859787995025429,
+            "is_officer": true,
+            "is_staff_role": true
+        },
+		{
+            "name": "Commander",
+            "name_id": "commander",
+            "id": 1191859320791502959,
+            "is_officer": true,
+            "is_staff_role": true
+        },
+        {
+            "id": 1191859142932054066,
+            "is_admin": true,
+            "is_officer": true,
+            "is_staff_role": true,
+            "name": "Deputy Commissioner"
+            "name_id": "deputy commissioner"
+        },
+        {
+            "name": "Commissioner",
+            "name_id": "commissioner",
+            "id": 1191858865613049897,
+            "is_officer": true,
+            "is_staff_role": true,
+            "is_admin": true
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "Server_ID": 0,
+    "bot_prefix": "$",
+    "name_separator": ";",
+    
+    "admin_bot_channel": 0,
+    "bot_debug_channel": 0,
+    "general_bot_channel": 0,
+    
+    "MPS_role": 0,
+    "role_ladder": [
+        {
+            "name": "Cadet",
+            "name_id": "cadet",
+            "id": 0
+        },
+        {
+            "name": "Recruit",
+            "name_id": "recruit",
+            "id": 0,
+            "is_officer": true
+        },
+        {
+            "name": "PCSO [Public Community Support Officer]",
+            "name_id": "pcso",
+            "id": 0,
+            "is_officer": true
+        },
+        {
+            "name": "Constable",
+            "name_id": "constable",
+            "id": 0,
+            "is_officer": true
+        },
+        {
+            "name": "Special Constable",
+            "name_id": "special constable",
+            "id": 0,
+            "is_officer": true
+        },
+        {
+            "name": "Sergeants",
+            "name_id": "sergeants",
+            "id": 0,
+            "is_officer": true,
+            "is_white_shirt": true
+        },
+        {
+            "name": "Snr Sergeants",
+            "name_id": "snr sergeants",
+            "id": 0,
+            "is_officer": true,
+            "is_white_shirt": true
+        },
+        {
+            "name": "Superintendant",
+            "name_id": "superintendant",
+            "id": 0,
+            "is_officer": true,
+            "is_white_shirt": true
+        },
+        {
+            "name": "Commander",
+            "name_id": "commander",
+            "id": 0,
+            "is_officer": true,
+            "is_white_shirt": true
+        },
+        {
+            "name": "Deputy Commissioner",
+            "name_id": "deputy commissioner",
+            "id": 0,
+            "is_officer": true,
+            "is_white_shirt": true,
+            "is_admin": true
+        },
+        {
+            "name": "Commissioner",
+            "name_id": "commissioner",
+            "id": 0,
+            "is_officer": true,
+            "is_white_shirt": true,
+            "is_admin": true
+        }
+    ]
+}
