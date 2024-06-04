@@ -1,28 +1,35 @@
-# Standard
 from time import sleep
-
-# Community
 import keyboard as keyboard_input
 import pyautogui as keyboard_output
 import pyperclip as clipboard
 
-# Get the input list
-officer_list = input("Insert the officer list\n>>>").split(";")
+def main():
+    """
+    Main function to automate the process of typing officer names into a specific application.
+    """
 
-# Add the exit for safety
-keyboard_input.add_hotkey("esc", lambda: exit())
+    # Get the officer list from user input
+    officer_list = input("Insert the officer list\n>>>").split(";")
 
-# Input the list
-keyboard_input.wait("space")
+    # Add an escape hotkey to exit the program
+    keyboard_input.add_hotkey("esc", lambda: exit())
 
-# Input the list length
-keyboard_output.write(str(len(officer_list)))
-keyboard_output.press("enter")
-keyboard_output.press("tab")
+    # Wait for the user to press the spacebar
+    keyboard_input.wait("space")
 
-# Input the names in the list
-for name in officer_list:
-    clipboard.copy(name)
-    sleep(.1)
-    keyboard_output.hotkey("ctrl", "v")
+    # Type the number of officers into the application
+    keyboard_output.write(str(len(officer_list)))
+    keyboard_output.press("enter")
     keyboard_output.press("tab")
+
+    # Loop through the officer list and type each name into the application
+    for name in officer_list:
+        clipboard.copy(name)
+        sleep(.1)
+        keyboard_output.hotkey("ctrl", "v")
+        keyboard_output.press("tab")
+
+# Call the main function
+if __name__ == "__main__":
+    main()
+    
